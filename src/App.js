@@ -1,5 +1,5 @@
-import './styles.css';
-import { ChatEngine } from 'react-chat-engine';
+import "./styles.css";
+import { ChatEngine } from "react-chat-engine";
 export default function App() {
   return (
     <div className="App">
@@ -9,9 +9,6 @@ export default function App() {
         da28bc70-b455-4f95-8c07-8216b3870779"
         userName="Admin"
         userSecret="admin@123"
-        renderChatFeed={(chatAppState) => {
-          console.log(chatAppState);
-        }}
       />
     </div>
   );
